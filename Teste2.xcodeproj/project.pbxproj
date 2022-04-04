@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0093F2BCF8B24559A3021D19 /* Pods_Teste2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AA9638C4B91E721FDB763A /* Pods_Teste2.framework */; };
 		7911479727FB2F0A004C92CD /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7911479627FB2F09004C92CD /* music.mp3 */; };
+		7911479927FB7667004C92CD /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7911479827FB7666004C92CD /* music2.mp3 */; };
 		79D6EAD027F72B66003ED653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D6EACF27F72B66003ED653 /* AppDelegate.swift */; };
 		79D6EAD227F72B66003ED653 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D6EAD127F72B66003ED653 /* SceneDelegate.swift */; };
 		79D6EAD427F72B66003ED653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D6EAD327F72B66003ED653 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		7911479627FB2F09004C92CD /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = ../../music.mp3; sourceTree = "<group>"; };
+		7911479827FB7666004C92CD /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music2.mp3; path = ../../music2.mp3; sourceTree = "<group>"; };
 		79D6EACC27F72B66003ED653 /* Teste2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teste2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D6EACF27F72B66003ED653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79D6EAD127F72B66003ED653 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		79D6EACE27F72B66003ED653 /* Teste2 */ = {
 			isa = PBXGroup;
 			children = (
+				7911479827FB7666004C92CD /* music2.mp3 */,
 				7911479627FB2F09004C92CD /* music.mp3 */,
 				79D6EACF27F72B66003ED653 /* AppDelegate.swift */,
 				79D6EAD127F72B66003ED653 /* SceneDelegate.swift */,
@@ -91,7 +94,6 @@
 				A4B2316F494D5DA0DA5F1C2D /* Pods-Teste2.debug.xcconfig */,
 				BDA5215CD8AE86979705A059 /* Pods-Teste2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,6 +160,7 @@
 				7911479727FB2F0A004C92CD /* music.mp3 in Resources */,
 				79D6EADC27F72B68003ED653 /* LaunchScreen.storyboard in Resources */,
 				79D6EAD927F72B68003ED653 /* Assets.xcassets in Resources */,
+				7911479927FB7667004C92CD /* music2.mp3 in Resources */,
 				79D6EAD727F72B66003ED653 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

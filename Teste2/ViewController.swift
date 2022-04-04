@@ -59,7 +59,7 @@ class ViewController: UIViewController, WebSocketDelegate {
     }
     
     func playSound(){
-        let path = Bundle.main.path(forResource: "music", ofType : "mp3")!
+        let path = Bundle.main.path(forResource: "music2", ofType : "mp3")!
         let url = URL(fileURLWithPath : path)
         do {
             player = try AVAudioPlayer(contentsOf: url)
